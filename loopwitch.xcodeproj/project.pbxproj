@@ -48,6 +48,7 @@
 		F1AD50332EBD02400017CFD2 /* loopwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F1AD50442EBD4E870017CFD2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		F1AD50462EBD4E9B0017CFD2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F1CB0FB12FA203D400BCAADE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		F1AD500A2EBD023E0017CFD2 = {
 			isa = PBXGroup;
 			children = (
+				F1CB0FB12FA203D400BCAADE /* .gitignore */,
 				F1AD50152EBD023E0017CFD2 /* loopwitch */,
 				F1AD50262EBD02400017CFD2 /* loopwitchTests */,
 				F1AD50302EBD02400017CFD2 /* loopwitchUITests */,
