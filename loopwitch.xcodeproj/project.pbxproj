@@ -16,6 +16,7 @@
 		F1AD50342EBD02400017CFD2 /* loopwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD50332EBD02400017CFD2 /* loopwitchUITestsLaunchTests.swift */; };
 		F1AD50452EBD4E870017CFD2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD50442EBD4E870017CFD2 /* CameraView.swift */; };
 		F1AD50472EBD4E9B0017CFD2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD50462EBD4E9B0017CFD2 /* CameraViewController.swift */; };
+		F1CB0FB32FA208D800BCAADE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F1AD50442EBD4E870017CFD2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		F1AD50462EBD4E9B0017CFD2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F1CB0FB12FA203D400BCAADE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		F1AD50152EBD023E0017CFD2 /* loopwitch */ = {
 			isa = PBXGroup;
 			children = (
+				F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */,
 				F1AD50162EBD023E0017CFD2 /* loopwitchApp.swift */,
 				F1AD50182EBD023E0017CFD2 /* ContentView.swift */,
 				F1AD501A2EBD02400017CFD2 /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			files = (
 				F1AD50452EBD4E870017CFD2 /* CameraView.swift in Sources */,
 				F1AD50472EBD4E9B0017CFD2 /* CameraViewController.swift in Sources */,
+				F1CB0FB32FA208D800BCAADE /* ButtonView.swift in Sources */,
 				F1AD50192EBD023E0017CFD2 /* ContentView.swift in Sources */,
 				F1AD50172EBD023E0017CFD2 /* loopwitchApp.swift in Sources */,
 			);
