@@ -24,8 +24,7 @@ struct CameraView: UIViewControllerRepresentable {
         return camViewController
     }
 
-    // Update the associated `UIViewController` for this SwiftUI view.
-    // Currently not implemented as we don't need it for this app.
+
     func updateUIViewController(_ uiViewController: CameraViewController, context: Context) { }
 }
 

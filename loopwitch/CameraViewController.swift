@@ -53,12 +53,12 @@ final class CameraViewController: UIViewController, AVCaptureVideoDataOutputSamp
         if AVCaptureDevice.authorizationStatus(for: .video) != .authorized{
             AVCaptureDevice.requestAccess(for: .video) { authorized in
                 if !authorized{
-                    fatalError("Camera Access is Rquired")
+                    fatalError("Camera Access is Required")
                 }
             }
         }
 
-        guard let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front) else {
+        guard let videoDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) else {
             throw CameraErrors.setupError
         }
 
@@ -89,6 +89,7 @@ final class CameraViewController: UIViewController, AVCaptureVideoDataOutputSamp
         previewLayer.videoGravity = .resizeAspectFill
         view.layer.addSublayer(previewLayer)
         previewLayer.frame = view.bounds
+      
 
         session.commitConfiguration()
         cameraFeedSession = session

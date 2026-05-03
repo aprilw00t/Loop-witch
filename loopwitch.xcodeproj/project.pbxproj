@@ -19,6 +19,7 @@
 		F1CB0FB32FA208D800BCAADE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */; };
 		F1CB0FB62FA7701C00BCAADE /* AudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB0FB52FA7701300BCAADE /* AudioConfig.swift */; };
 		F1CB0FBA2FA77D0800BCAADE /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB0FB92FA77D0800BCAADE /* AudioKit */; };
+		F1CB0FBC2FA786C200BCAADE /* PaperRecognitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB0FBB2FA786B700BCAADE /* PaperRecognitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F1CB0FB12FA203D400BCAADE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F1CB0FB52FA7701300BCAADE /* AudioConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioConfig.swift; sourceTree = "<group>"; };
+		F1CB0FBB2FA786B700BCAADE /* PaperRecognitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperRecognitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		F1AD50152EBD023E0017CFD2 /* loopwitch */ = {
 			isa = PBXGroup;
 			children = (
+				F1CB0FBB2FA786B700BCAADE /* PaperRecognitionView.swift */,
 				F1CB0FB52FA7701300BCAADE /* AudioConfig.swift */,
 				F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */,
 				F1AD50162EBD023E0017CFD2 /* loopwitchApp.swift */,
@@ -288,6 +291,7 @@
 				F1AD50452EBD4E870017CFD2 /* CameraView.swift in Sources */,
 				F1AD50472EBD4E9B0017CFD2 /* CameraViewController.swift in Sources */,
 				F1CB0FB32FA208D800BCAADE /* ButtonView.swift in Sources */,
+				F1CB0FBC2FA786C200BCAADE /* PaperRecognitionView.swift in Sources */,
 				F1AD50192EBD023E0017CFD2 /* ContentView.swift in Sources */,
 				F1AD50172EBD023E0017CFD2 /* loopwitchApp.swift in Sources */,
 			);
@@ -452,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"loopwitch/Preview Content\"";
@@ -464,6 +469,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +477,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aprilw00t.loopwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"loopwitch/Preview Content\"";
@@ -494,6 +502,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +510,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = aprilw00t.loopwitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
