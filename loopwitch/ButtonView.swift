@@ -28,6 +28,4 @@ struct ButtonView: View {
     }
 }
 
-#Preview {
-    ButtonView()
-}
+

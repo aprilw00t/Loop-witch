@@ -17,6 +17,8 @@
 		F1AD50452EBD4E870017CFD2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD50442EBD4E870017CFD2 /* CameraView.swift */; };
 		F1AD50472EBD4E9B0017CFD2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD50462EBD4E9B0017CFD2 /* CameraViewController.swift */; };
 		F1CB0FB32FA208D800BCAADE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */; };
+		F1CB0FB62FA7701C00BCAADE /* AudioConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB0FB52FA7701300BCAADE /* AudioConfig.swift */; };
+		F1CB0FBA2FA77D0800BCAADE /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB0FB92FA77D0800BCAADE /* AudioKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		F1AD50462EBD4E9B0017CFD2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F1CB0FB12FA203D400BCAADE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F1CB0FB52FA7701300BCAADE /* AudioConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CB0FBA2FA77D0800BCAADE /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,7 @@
 				F1AD50152EBD023E0017CFD2 /* loopwitch */,
 				F1AD50262EBD02400017CFD2 /* loopwitchTests */,
 				F1AD50302EBD02400017CFD2 /* loopwitchUITests */,
+				F1CB0FB82FA77D0700BCAADE /* Frameworks */,
 				F1AD50142EBD023E0017CFD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 		F1AD50152EBD023E0017CFD2 /* loopwitch */ = {
 			isa = PBXGroup;
 			children = (
+				F1CB0FB52FA7701300BCAADE /* AudioConfig.swift */,
 				F1CB0FB22FA208CB00BCAADE /* ButtonView.swift */,
 				F1AD50162EBD023E0017CFD2 /* loopwitchApp.swift */,
 				F1AD50182EBD023E0017CFD2 /* ContentView.swift */,
@@ -136,6 +142,13 @@
 				F1AD50332EBD02400017CFD2 /* loopwitchUITestsLaunchTests.swift */,
 			);
 			path = loopwitchUITests;
+			sourceTree = "<group>";
+		};
+		F1CB0FB82FA77D0700BCAADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +239,9 @@
 				Base,
 			);
 			mainGroup = F1AD500A2EBD023E0017CFD2;
+			packageReferences = (
+				F1CB0FB72FA77AE800BCAADE /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = F1AD50142EBD023E0017CFD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CB0FB62FA7701C00BCAADE /* AudioConfig.swift in Sources */,
 				F1AD50452EBD4E870017CFD2 /* CameraView.swift in Sources */,
 				F1AD50472EBD4E9B0017CFD2 /* CameraViewController.swift in Sources */,
 				F1CB0FB32FA208D800BCAADE /* ButtonView.swift in Sources */,
@@ -598,6 +615,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1CB0FB72FA77AE800BCAADE /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1CB0FB92FA77D0800BCAADE /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB0FB72FA77AE800BCAADE /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1AD500B2EBD023E0017CFD2 /* Project object */;
 }
